@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kviz</title>
+
+    <link rel="stylesheet" href="eksterni.css">
+    <link rel="icon" href="b.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: black;">
+    <div class="nav"> <!--navigation bar-->
+        <a href="pocetna.html">Početna</a>
+        <a href="filmografija.html">Filmografija</a>
+        <a href="kviz.html">Kviz</a>
+
+    <div class="kviz">
+        <h1>Quentin Tarantino Kviz</h1>
+        <div id="start-screen">
+        <button id="start-btn" class="start">Započni</button>
+    </div>
+
+    <div id="quiz-container">
+        <div id="question"></div>
+        <div id="options-container"></div>
+        <button id="next-btn" class="next">Sledeće</button>
+    </div>
+
+    <div id="result-container">
+        <p id="result-text"></p>
+        <button id="restart-btn" class="restart">Ponovo</button>
+    </div>
+
+        <script src="kviz.js"></script>
+    </div>
+</body>
+</html>
